@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599c04f6-a41d-47bc-989d-85c6f8f9ef00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -211,7 +212,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb&#10;controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/static_pages_controller.rb&#10;static&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="production&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/environments/production.rb&#10;users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb&#10;controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/static_pages_controller.rb&#10;static&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb" />
   </component>
   <component name="RunManager" selected="Ruby.string_shuffle">
     <configuration default="false" name="string_shuffle" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -448,7 +449,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45577000" />
+    <option name="totallyTimeSpent" value="45803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
@@ -489,13 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -556,6 +550,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -767,6 +762,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,6 +828,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
