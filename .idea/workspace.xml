@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599c04f6-a41d-47bc-989d-85c6f8f9ef00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/puma.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puma.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/puma.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -85,6 +96,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/puma.rb" />
       </list>
     </option>
   </component>
@@ -145,60 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -212,7 +170,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="production&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/environments/production.rb&#10;users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb&#10;controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/static_pages_controller.rb&#10;static&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="puma.rb&#9;FILE&#9;file:///home/kacper/.RubyMine2016.1/config/rubystubs/ruby18/puma/3.1.0/puma.rb&#10;production&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/environments/production.rb&#10;users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb&#10;controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/static_pages_controller.rb&#10;static&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/application.html.erb" />
   </component>
   <component name="RunManager" selected="Ruby.string_shuffle">
     <configuration default="false" name="string_shuffle" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -449,13 +407,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45803000" />
+    <option name="totallyTimeSpent" value="46137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -490,27 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -792,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,10 +777,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/puma/3.1.0/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gem/ruby/gems/puma-3.1.0/lib/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
