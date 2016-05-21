@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="599c04f6-a41d-47bc-989d-85c6f8f9ef00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_edit_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,21 +38,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+            <state relative-caret-position="360">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="sessions_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="587">
+              <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -95,20 +97,21 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_login_test.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/test/helpers/sessions_helper_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+        <option value="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
       </list>
     </option>
   </component>
@@ -179,46 +182,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -236,7 +199,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;ers&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_edit_test.rb&#10;_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;users_edit&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_edit_test.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;users_login&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;sessions&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/helpers/sessions_helper_test.rb&#10;.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;fixtures&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/activerecord-4.2.2/lib/active_record/fixtures.rb&#10;test/helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/helpers/sessions_helper_test.rb&#10;users_login_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/sessions/new.html.erb&#10;user_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/models/user_test.rb&#10;users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;models/user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;users.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;fix&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/model/templates/fixtures.yml&#10;users_s&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;fixtures.&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/model/templates/fixtures.yml&#10;fixture&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/activerecord-4.2.2/lib/active_record/fixtures.rb&#10;application.js&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/javascripts/application.js&#10;gravatar&#9;null&#9;null&#10;sess&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;sessio&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;session_&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/application_controller.rb&#10;layout&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/rails-4.2.2/guides/source/layout.html.erb&#10;sessions_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/sessions_controller.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users_&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;puma.rb&#9;FILE&#9;file:///home/kacper/.RubyMine2016.1/config/rubystubs/ruby18/puma/3.1.0/puma.rb&#10;production&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/environments/production.rb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="sessions&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/sessions_controller.rb&#10;users_edit&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_edit_test.rb&#10;sess&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;users&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;users.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;users_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;user.rb&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;ers&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_edit_test.rb&#10;_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;integration&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/integration/templates/integration_test.rb&#10;_header&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_header.html.erb&#10;users_login&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;.yml&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;fixtures&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/activerecord-4.2.2/lib/active_record/fixtures.rb&#10;test/helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/helpers/sessions_helper_test.rb&#10;users_login_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_login_test.rb&#10;test_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/test_helper.rb&#10;custom&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;new&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/sessions/new.html.erb&#10;user_test&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/models/user_test.rb&#10;models/user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;users.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/fixtures/users.yml&#10;fix&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/model/templates/fixtures.yml&#10;users_s&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;fixtures.&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/railties-4.2.2/lib/rails/generators/test_unit/model/templates/fixtures.yml&#10;fixture&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/activerecord-4.2.2/lib/active_record/fixtures.rb&#10;application.js&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/assets/javascripts/application.js&#10;gravatar&#9;null&#9;null&#10;sessio&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;session_&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/sessions_helper.rb&#10;application&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/application_controller.rb&#10;layout&#9;FILE&#9;file:///home/kacper/.gem/ruby/gems/rails-4.2.2/guides/source/layout.html.erb&#10;sessions_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/sessions_controller.rb&#10;routes&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;users_&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;puma.rb&#9;FILE&#9;file:///home/kacper/.RubyMine2016.1/config/rubystubs/ruby18/puma/3.1.0/puma.rb&#10;production&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/environments/production.rb&#10;users_signup&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/users_signup_test.rb&#10;user&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/models/user.rb&#10;cutom&#9;null&#9;null&#10;users_helper&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/helpers/users_helper.rb&#10;user_controller&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/controllers/users_controller.rb&#10;user_c&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/controllers/users_controller_test.rb&#10;add_index&#9;FILE&#9;file:///home/kacper/Projects/sample_app/db/migrate/20160517200742_addd_index_to_users_email.rb&#10;site&#9;FILE&#9;file:///home/kacper/Projects/sample_app/test/integration/site_layout_test.rb&#10;router&#9;FILE&#9;file:///home/kacper/Projects/sample_app/config/routes.rb&#10;new.&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/home.html.erb&#10;_footer&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///home/kacper/Projects/sample_app/app/views/static_pages/contact.html.erb" />
   </component>
   <component name="RunManager" selected="Ruby.string_shuffle">
     <configuration default="false" name="string_shuffle" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -476,12 +439,12 @@
       <workItem from="1463767771917" duration="134000" />
       <workItem from="1463767949068" duration="10546000" />
       <workItem from="1463781281418" duration="436000" />
-      <workItem from="1463831693065" duration="4258000" />
+      <workItem from="1463831693065" duration="8652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77645000" />
+    <option name="totallyTimeSpent" value="82039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
@@ -649,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -767,6 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,33 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/sessions_helper_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -862,10 +796,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/users_edit_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="936">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -878,10 +836,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        <state relative-caret-position="587">
+          <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding />
         </state>
       </provider>
